@@ -1,8 +1,8 @@
 class NumberSubscribers implements NewsSubscriber {
     private String subscriberNumber;
 
-    public NumberSubscribers(String Number) {
-        this.subscriberNumber = Number;
+    public NumberSubscribers(String number) {
+        this.subscriberNumber = number;
     }
 
     @Override

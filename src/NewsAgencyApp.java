@@ -19,14 +19,11 @@ public class NewsAgencyApp {
         newsAgency.registerSubscriber(numberSubscriber1);
         newsAgency.registerSubscriber(numberSubscriber2);
 
-        // Publishing news
         newsAgency.publishNews("New technology breakthrough!");
         newsAgency.publishNews("Weather update: Storm warning in coastal areas");
 
-        // Unsubscribe an observer
         newsAgency.removeSubscriber(offlineSubscriber1);
 
-        // More news published
         newsAgency.publishNews("Local elections postponed");
     }
 }
